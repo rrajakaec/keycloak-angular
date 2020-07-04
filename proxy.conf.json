@@ -1,0 +1,11 @@
+{
+  "/api/heroes": {
+    "target": "http://localhost:9090",
+    "secure": false
+  },
+  "/auth/realms/heroes": {
+    "target": "http://localhost:8080",
+    "secure": false
+
+  }
+}
